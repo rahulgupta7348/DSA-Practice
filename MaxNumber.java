@@ -12,9 +12,9 @@ public class MaxNumber{
     int num2 = scn.nextInt();
     int num3 = scn.nextInt();
 
-    if(num1>num2 && num1>num3){
+    if(num1>=num2 && num1>=num3){
       System.out.println("Max number is: "+num1);
-    }else if(num2>num1 && num2 >num3){
+    }else if(num2>=num1 && num2>=num3){
       System.out.println("Max number is: "+num2);
     }else{
       System.out.println("Max number is: "+num3);
