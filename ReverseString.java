@@ -9,11 +9,11 @@ public class ReverseString {
   public static void main(String[] args) {
    Scanner scn = new Scanner(System.in);
    String str = scn.nextLine();
-   System.out.print(ReverseArr(str));
+   System.out.print(ReverseStr(str));
    scn.close(); 
   }
 
-  public static String ReverseArr(String str){
+  public static String ReverseStr(String str){
   char[] ch = str.toCharArray();
     int sp =0;
     int ep =ch.length -1;
